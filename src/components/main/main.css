@@ -1,0 +1,27 @@
+#id_main {
+
+    height: 75vh;
+    background-image: url(/public/images/main_pic.webp);
+    background-size: cover;
+
+}
+
+@media only screen and (max-width: 800px) {
+    #id_main {
+
+        height: 60vh;
+        background-image: url(/public/images/main_pic_small.webp);
+        background-size: 250%;
+        background-position-x: right;
+        background-position-y: center;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    #id_main {
+
+        background-size: 450%;
+        background-position-x: right;
+        background-repeat: no-repeat;
+    }
+}

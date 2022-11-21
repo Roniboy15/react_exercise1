@@ -1,0 +1,23 @@
+#id_header {
+    height: 25vh;
+}
+
+@media only screen and (max-width: 800px) {
+    #id_header {
+        height: 15vh;
+    }
+}
+
+#id_header_up {
+}
+
+#id_header_middle {
+    height: 10vh;
+    background-image: url(/public/images/logo.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.react-icons {
+    size: 200%;
+}
